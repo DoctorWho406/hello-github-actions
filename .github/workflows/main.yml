@@ -1,19 +1,30 @@
-name: A workflow for my Hello World file
+name: Reformat C# Code
+
+# Run this workflow every time a new commit pushed to your repository
 on: push
+
 jobs:
-  dotnet-format:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  super-lint:
+    # Name the Job
+    name: Lint code base
+    # Set the type of machine to run on
     runs-on: ubuntu-latest
-
+    env:
+      working-directory : ./WebHRModuleWizard/    
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3.0.0
-
-      - name: Add dotnet-format problem matcher
-        uses: xt0rted/dotnet-format-problem-matcher@v1.2.0
-
-      - name: Restore dotnet tools
-        uses: xt0rted/dotnet-tool-restore@v1.0.1
-
-      - name: Run dotnet format
-        # uses: xt0rted/dotnet-format@v1.2.0
-        run: dotnet format
+      - uses: actions/checkout@v2
+      - run: git pull
+      - run: dotnet tool install -g dotnet-format
+      - name: format
+        run: dotnet-format -v d
+        working-directory: ${{env.working-directory}}
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v5
+        with:
+          message: "[Bot-C#] Automated format update"
+          add: "*.cs"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
