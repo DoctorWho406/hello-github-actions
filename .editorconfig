@@ -69,8 +69,8 @@ dotnet_code_quality_unused_parameters = all
 dotnet_remove_unnecessary_suppression_exclusions = none
 
 # Preferenze per nuova riga
-dotnet_style_allow_multiple_blank_lines_experimental = true
-dotnet_style_allow_statement_immediately_after_block_experimental = true
+dotnet_style_allow_multiple_blank_lines_experimental = false
+dotnet_style_allow_statement_immediately_after_block_experimental = false
 
 #### Convenzioni di scrittura codice C# ####
 
@@ -84,7 +84,7 @@ csharp_style_expression_bodied_accessors = true
 csharp_style_expression_bodied_constructors = true
 csharp_style_expression_bodied_indexers = true
 csharp_style_expression_bodied_lambdas = true
-csharp_style_expression_bodied_local_functions = false
+csharp_style_expression_bodied_local_functions = true
 csharp_style_expression_bodied_methods = true
 csharp_style_expression_bodied_operators = false
 csharp_style_expression_bodied_properties = true
@@ -94,7 +94,7 @@ csharp_style_pattern_matching_over_as_with_null_check = true
 csharp_style_pattern_matching_over_is_with_cast_check = true
 csharp_style_prefer_extended_property_pattern = true
 csharp_style_prefer_not_pattern = true
-csharp_style_prefer_pattern_matching = true
+csharp_style_prefer_pattern_matching = false
 csharp_style_prefer_switch_expression = false
 
 # Preference per controllo valori Null
@@ -112,7 +112,7 @@ csharp_style_namespace_declarations = block_scoped
 # Preferenze a livello di espressione
 csharp_prefer_simple_default_expression = true
 csharp_style_deconstructed_variable_declaration = true
-csharp_style_implicit_object_creation_when_type_is_apparent = true
+csharp_style_implicit_object_creation_when_type_is_apparent = false
 csharp_style_inlined_variable_declaration = true
 csharp_style_prefer_index_operator = true
 csharp_style_prefer_local_over_anonymous_function = true
@@ -127,9 +127,9 @@ csharp_style_unused_value_expression_statement_preference = discard_variable
 csharp_using_directive_placement = outside_namespace
 
 # Preferenze per nuova riga
-csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = true
-csharp_style_allow_blank_lines_between_consecutive_braces_experimental = true
-csharp_style_allow_embedded_statements_on_same_line_experimental = true
+csharp_style_allow_blank_line_after_colon_in_constructor_initializer_experimental = false
+csharp_style_allow_blank_lines_between_consecutive_braces_experimental = false
+csharp_style_allow_embedded_statements_on_same_line_experimental = false
 
 #### Regole di formattazione C# ####
 
