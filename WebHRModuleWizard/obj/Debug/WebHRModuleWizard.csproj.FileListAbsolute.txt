@@ -1,0 +1,13 @@
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.csproj.AssemblyReference.cache
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.csproj.SuggestedBindingRedirects.cache
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.ModuleWizard.resources
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.Properties.Resources.resources
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.csproj.GenerateResource.cache
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.csproj.CoreCompileInputs.cache
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\bin\Debug\Assets\CONTROLLER.php
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\bin\Debug\Assets\MODEL.php
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\bin\Debug\WebHRModuleWizard.exe.config
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\bin\Debug\WebHRModuleWizard.exe
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\bin\Debug\WebHRModuleWizard.pdb
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.exe
+D:\Documents\Stronzate\WebHRTools\WebHRModuleWizard\obj\Debug\WebHRModuleWizard.pdb
