@@ -9,10 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-
-name: Format check on push
-on: push
-jobs:
   dotnet-format:
     runs-on: ubuntu-latest
     steps:
