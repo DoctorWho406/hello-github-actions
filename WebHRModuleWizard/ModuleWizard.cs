@@ -4,10 +4,8 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace WebHRModuleWizard 
-{
-    public partial class ModuleWizard : Form 
-    {
+namespace WebHRModuleWizard {
+    public partial class ModuleWizard : Form {
         enum FileType {
             Controller,
             Model,
