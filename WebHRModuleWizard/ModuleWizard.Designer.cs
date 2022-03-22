@@ -22,8 +22,7 @@
         /// Metodo necessario per il supporto della finestra di progettazione. Non modificare
         /// il contenuto del metodo con l'editor di codice.
         /// </summary>
-        private void InitializeComponent() 
-        {
+        private void InitializeComponent() {
             this.Enabled_CheckBoxes = new System.Collections.Generic.List<System.Windows.Forms.CheckBox>();
             this.Name_TextBoxes = new System.Collections.Generic.List<System.Windows.Forms.TextBox>();
             this.DBName_TextBoxes = new System.Collections.Generic.List<System.Windows.Forms.TextBox>();
